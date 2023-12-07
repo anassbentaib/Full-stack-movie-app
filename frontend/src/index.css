@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Days+One&family=Open+Sans&family=PT+Serif&family=Poppins:wght@300&display=swap");
+
+.body {
+  font-family: "PT Serif", serif;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #6f4d98;
+  border-radius: 5px !important;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #3f255f;
+  border-radius: 5px !important;
+}
